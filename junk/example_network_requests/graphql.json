@@ -1,0 +1,146 @@
+{
+ "data": {
+  "lightspeed_web_request_for_igd": {
+   "payload": "{\"name\":null,\"step\":[1,[1,[4,0,1,[5,\"executeFirstBlockForSyncTransaction\",[19,\"6\"],[19,\"7208513311216204109\"],\"FvSpg-cMFvSpg-cMAA\",\"Ft6sg-cMFt6sg-cMAA\",[19,\"2\"],false,[19,\"180000\"],true,[19,\"2\"],[9]]],[23,[2,0],[1,[1,[5,\"truncatePresenceDatabase\",false]],[1,[5,\"setRegionHint\",[19,\"6\"],\"CLN\"]]]]],[1,[5,\"executeFinallyBlockForSyncTransaction\",true,[19,\"6\"],[19,\"7208513311216204109\"]]]]}",
+   "dependencies": [
+    {
+     "name": "executeFirstBlockForSyncTransaction",
+     "value": {
+      "__dr": "LSExecuteFirstBlockForSyncTransaction"
+     }
+    },
+    {
+     "name": "truncatePresenceDatabase",
+     "value": {
+      "__dr": "LSTruncatePresenceDatabase"
+     }
+    },
+    {
+     "name": "setRegionHint",
+     "value": {
+      "__dr": "LSSetRegionHint"
+     }
+    },
+    {
+     "name": "executeFinallyBlockForSyncTransaction",
+     "value": {
+      "__dr": "LSExecuteFinallyBlockForSyncTransaction"
+     }
+    }
+   ],
+   "experiments": null,
+   "target": "JSON"
+  }
+ },
+ "extensions": {
+  "is_final": true,
+  "sr_payload": {
+   "ddd": {
+    "hsrp": {
+     "hblp": {
+      "consistency": {
+       "rev": 1014265956
+      },
+      "rsrcMap": {
+       "csr:_u_0_D3": {
+        "type": "csr",
+        "src": ":1,26",
+        "c": 1
+       }
+      }
+     }
+    },
+    "jsmods": {
+     "define": [
+      [
+       "cr:6640",
+       [],
+       {
+        "__rc": [
+         null,
+         null
+        ]
+       },
+       -1
+      ]
+     ],
+     "require": [
+      [
+       "LSExecuteFirstBlockForSyncTransaction"
+      ],
+      [
+       "LSTruncatePresenceDatabase"
+      ],
+      [
+       "LSSetRegionHint"
+      ],
+      [
+       "LSExecuteFinallyBlockForSyncTransaction"
+      ],
+      [
+       "emptyFunction",
+       "thatReturns",
+       [
+        "RequireDeferredReference"
+       ],
+       [
+        [
+         {
+          "__dr": "LSExecuteFirstBlockForSyncTransaction"
+         },
+         {
+          "__dr": "LSTruncatePresenceDatabase"
+         },
+         {
+          "__dr": "LSSetRegionHint"
+         },
+         {
+          "__dr": "LSExecuteFinallyBlockForSyncTransaction"
+         }
+        ]
+       ]
+      ],
+      [
+       "RequireDeferredReference",
+       "unblock",
+       [],
+       [
+        [
+         "LSExecuteFirstBlockForSyncTransaction",
+         "LSTruncatePresenceDatabase",
+         "LSSetRegionHint",
+         "LSExecuteFinallyBlockForSyncTransaction"
+        ],
+        "sd"
+       ]
+      ],
+      [
+       "RequireDeferredReference",
+       "unblock",
+       [],
+       [
+        [
+         "LSExecuteFirstBlockForSyncTransaction",
+         "LSTruncatePresenceDatabase",
+         "LSSetRegionHint",
+         "LSExecuteFinallyBlockForSyncTransaction"
+        ],
+        "css"
+       ]
+      ]
+     ]
+    },
+    "allResources": [
+     "csr:_u_0_D3"
+    ],
+    "tieredResources": {
+     "r": [
+      "csr:_u_0_D3"
+     ],
+     "rdfds": [],
+     "rds": []
+    }
+   }
+  }
+ }
+}

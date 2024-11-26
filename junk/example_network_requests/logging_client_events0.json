@@ -1,0 +1,37 @@
+{
+  "app_id": "936619743392459",
+  "app_uid": "29529933216",
+  "app_ver": "1.0.0",
+  "claims": [
+    "hmac.AR1eN-TO4M98xcz4nf2TDQCvhBumb1AU9PBDKOIihH0bC6pp"
+  ],
+  "data": [
+    {
+      "extra": {
+        "loop_count": 0,
+        "lsp": 1.83,
+        "playing_audio": 1,
+        "representation_id": "986309449834894v",
+        "seq_num": 31,
+        "time": 5.16,
+        "video_width": 1080,
+        "m_pk": "3385950601630846426_63494227859",
+        "a_i": "organic",
+        "a_pk": "63494227859",
+        "is_dash_eligible": 1,
+        "nav_chain": "PolarisClipsTabDesktopContainer:reelsTab:1:via_cold_start",
+        "pk": "29529933216",
+        "playback_format": "dash",
+        "time_spent_id": "zzlnv3",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiY2EyZWNlM2IyZTYxNDM5MDg4NGNkZTkxNjMzMmI0NTMzMzg1OTUwNjAxNjMwODQ2NDI2Iiwic2VydmVyX3Rva2VuIjoiMTcxODIyOTEwOTU1OXwzMzg1OTUwNjAxNjMwODQ2NDI2fDI5NTI5OTMzMjE2fDFkM2VkZGE1MzQyYTFlMGIyOTc3Zjc3YjIzZjIyZjRhYTExNmM2ZTA4OWJkZDc5OGQ2OGU2YjczM2E5MWU0OTIifSwic2lnbmF0dXJlIjoiIn0="
+      },
+      "name": "video_format_changed",
+      "time": 1718229229.04,
+      "module": "reels_tab"
+    }
+  ],
+  "device_id": "ACBD430C-E22D-4884-AD63-F2E1E75789FB",
+  "log_type": "client_event",
+  "seq": 13,
+  "session_id": "bjvsrd:ytjli9:zzlnv3"
+}

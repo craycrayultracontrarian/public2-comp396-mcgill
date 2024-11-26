@@ -1,0 +1,63 @@
+{
+ "app_id": "936619743392459",
+ "app_uid": "29529933216",
+ "app_ver": "1.0.0",
+ "claims": [
+  "hmac.AR1eN-TO4M98xcz4nf2TDQCvhBumb1AU9PBDKOIihH0bC8Cm"
+ ],
+ "data": [
+  {
+   "extra": {
+    "follow_status": "not_following",
+    "loop_count": 8,
+    "m_ts": 1717496905,
+    "playing_audio": 1,
+    "radio_type": "none-none",
+    "seq_num": 29,
+    "timeAsPercent": 1,
+    "video_width": 1080,
+    "m_pk": "3382931474452509818_526296916",
+    "a_i": "organic",
+    "a_pk": "526296916",
+    "is_dash_eligible": 1,
+    "nav_chain": "PolarisClipsTabDesktopContainer:reelsTab:1:via_cold_start",
+    "pk": "29529933216",
+    "playback_format": "dash",
+    "time_spent_id": "m6uqxd",
+    "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiNGYwNzU2Y2NkMThlNDJiM2IyNzI5Yjg3Y2EwNGExMzEzMzgyOTMxNDc0NDUyNTA5ODE4Iiwic2VydmVyX3Rva2VuIjoiMTcxODY0Mjc4MjIyNXwzMzgyOTMxNDc0NDUyNTA5ODE4fDI5NTI5OTMzMjE2fDAwZmQ3ZDdiYWQ2YThhMDQxNWM4NjI4ZTYxNjZjNzg4ZmMwNDgzNjcyNGE3Y2YyZWFkYzc4NDg0NGIyOTJmMDYifSwic2lnbmF0dXJlIjoiIn0="
+   },
+   "name": "video_buffering_started",
+   "time": 1718643501.732,
+   "module": "reels_tab"
+  },
+  {
+   "extra": {
+    "follow_status": "not_following",
+    "loop_count": 8,
+    "lsp": 11.12,
+    "m_ts": 1717496905,
+    "playing_audio": 1,
+    "radio_type": "none-none",
+    "seq_num": 30,
+    "timeAsPercent": 0.0007410714815051058,
+    "video_width": 1080,
+    "m_pk": "3382931474452509818_526296916",
+    "a_i": "organic",
+    "a_pk": "526296916",
+    "is_dash_eligible": 1,
+    "nav_chain": "PolarisClipsTabDesktopContainer:reelsTab:1:via_cold_start",
+    "pk": "29529933216",
+    "playback_format": "dash",
+    "time_spent_id": "m6uqxd",
+    "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiNGYwNzU2Y2NkMThlNDJiM2IyNzI5Yjg3Y2EwNGExMzEzMzgyOTMxNDc0NDUyNTA5ODE4Iiwic2VydmVyX3Rva2VuIjoiMTcxODY0Mjc4MjIyNXwzMzgyOTMxNDc0NDUyNTA5ODE4fDI5NTI5OTMzMjE2fDAwZmQ3ZDdiYWQ2YThhMDQxNWM4NjI4ZTYxNjZjNzg4ZmMwNDgzNjcyNGE3Y2YyZWFkYzc4NDg0NGIyOTJmMDYifSwic2lnbmF0dXJlIjoiIn0="
+   },
+   "name": "video_buffering_finished",
+   "time": 1718643501.748,
+   "module": "reels_tab"
+  }
+ ],
+ "device_id": "875A1F14-75D3-4B0E-B96B-E69EA47C932E",
+ "log_type": "client_event",
+ "seq": 73,
+ "session_id": "t8cj4x:havqj5:m6uqxd"
+}
